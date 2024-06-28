@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navSection{
+  height:50px;
+  display:flex;
+  justify-content: space-between;
+  background-color: blue;
+  align-items: center;
+  padding:0 20px;
+  color:white;
+  font-size: large;
+}
+.sideBarSection{
+  width: 100%;
+  max-width: 15%;
+  height: 95vh;
+  padding-top: 10px;
+  background-color: lightgray;
+}
+.sideBarSection ul li{
+  list-style: none;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size:medium;
+  cursor: pointer;
+
+}
+.collectionSection{
+display: flex;
+}
+/* login section */
+.loginSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registerSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.authForm{
+  width: 100%;
+  max-width: 50%;
+  margin-top: -230px;
+  display:flex ;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.authForm input{
+  width: 100%;
+  max-width: 55%;
+  height: 1.4rem;
+}
+.authForm label{
+  width:100%;
+  max-width: 55%;
+  font-weight: 400;
+}
+/* firm section adding firm */
+.firmSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tableForm{
+  width: 100%;
+  max-width: 50%;
+  margin-top: -100px;
+  display:flex ;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.tableForm input{
+  width: 100%;
+  max-width: 55%;
+  height: 35px;
+  max-width: 85%;
+  margin-bottom: 10px;
+}
+.tableForm label{
+  width:100%;
+  max-width: 85%;
+  font-weight: 600;
+}
